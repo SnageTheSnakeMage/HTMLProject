@@ -1,3 +1,11 @@
 ﻿body
 {
+	header{
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+	}
+	.quoteText{
+		color: #8f8f8f
+	}
 }
