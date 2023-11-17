@@ -1,11 +1,59 @@
-﻿body
-{
-	header{
-		display: flex;
-		justify-content: center;
-		flex-direction: row;
-	}
-	.quoteText{
-		color: #8f8f8f
-	}
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+	background-image: url('https://i.gifer.com/5zWt.gif');
+	background-position: center;
+	background-size: cover;
+	color: #3cff00;
+}
+body{
+	min-height: 99vh;
+	min-width: 90vw;
+	display: flex;
+	flex-direction: column;
+}
+footer {
+	margin-top:auto;
+}
+a {
+	border-block: groove;
+	border-block-color: #3cff00;
+	border-inline: double;
+	border-inline-color: #3cff00;
+	color: #3cff00;
+}
+main{
+	border-width: thick;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+header{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.quoteText{
+	color: white;
+	background-color: dimgray;
+	border-block-color: black;
+	display: inline-block;
+	margin: 0px;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	font-family: Roboto;
+}
+#projInst {
+	border: groove 10px #2c4227
+}
+#projCont{
+	display: flex;
+	flex-direction: row;
+}
+#jobInst{
+	border: ridge;
 }
