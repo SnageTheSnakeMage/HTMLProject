@@ -7,11 +7,12 @@ html {
 	background-size: cover;
 	color: #3cff00;
 }
-body{
+body {
 	min-height: 99vh;
 	min-width: 90vw;
 	display: flex;
 	flex-direction: column;
+	font-size: 3.2vw;
 }
 footer {
 	margin-top:auto;
